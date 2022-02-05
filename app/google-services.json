@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365103507075",
+    "project_id": "kct-leave-management",
+    "storage_bucket": "kct-leave-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365103507075:android:01e7350f56184ff4709db6",
+        "android_client_info": {
+          "package_name": "com.example.kctleavemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365103507075-e5fp6tp9sk59njq2t5138q48hluet4tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp8ZDEyKpPxqNtc2QptgmyTRR3ljrzsDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365103507075-e5fp6tp9sk59njq2t5138q48hluet4tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

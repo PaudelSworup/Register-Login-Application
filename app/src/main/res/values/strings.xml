@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KCT Leave Management</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="form_name">Full Name</string>
+    <string name="form_uname">username</string>
+    <string name="form_mobile">Mobile Number</string>
+    <string name="form_email">Email Address</string>
+    <string name="form_web">Websites</string>
+    <string name="form_select">Select</string>
+    <string name="form_faculty">Enter Your Faculty</string>
+    <string name="form_semester">Enter your level </string>
+    <string name="form_password">Password</string>
+    <string name="form_confirm_password">Confirm Password</string>
+
+    <string-array name="faculty">
+        <item>BCA</item>
+        <item>CSIT</item>
+        <item>BBS</item>
+    </string-array>
+</resources>

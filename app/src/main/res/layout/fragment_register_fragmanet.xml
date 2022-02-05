@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/register"
+        android:orientation="vertical"
+        android:padding="40dp">
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints="name"
+            android:background="@drawable/input"
+            android:hint="@string/form_name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/et_uname"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="name"
+        android:background="@drawable/input"
+        android:hint="@string/form_uname"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/et_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints="phone"
+            android:background="@drawable/input"
+            android:hint="@string/form_mobile"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+
+    <EditText
+        android:id="@+id/et_faculty"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="faculty"
+        android:background="@drawable/input"
+        android:hint="@string/form_faculty"
+        android:inputType="text"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/et_period"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="semester"
+        android:background="@drawable/input"
+        android:hint="@string/form_semester"
+        android:inputType="text"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/input"
+            android:hint="@string/form_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints="password"
+            android:background="@drawable/input"
+            android:hint="@string/form_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints="password"
+            android:background="@drawable/input"
+            android:hint="@string/form_confirm_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn_register"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:onClick="signUp"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
+
